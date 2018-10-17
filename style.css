@@ -1,0 +1,251 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+  color: #212529;
+}
+.container {
+  width: 100%;
+  max-width: 1140px;
+}
+button {
+  padding: 13px 50px;
+  text-decoration: none;
+  font-weight: 600;
+  margin: 0px 10px;
+  background: #007bff;
+  border: 1px solid #007bff;
+  border-radius: 4px;
+  color: #fff;
+  transition: 0.4s;
+  cursor: pointer;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f8f9fa;
+  padding: 0.6rem;
+}
+nav a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.9);
+  font-size: 1.25rem;
+}
+nav button {
+  padding: 11px 15px;
+  transition: 0.2s;
+}
+nav button:hover {
+  background: #0069d9;
+  transition: 0.2s;
+}
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero {
+  background: url(img/bg-masthead.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  padding: 120px 0;
+}
+.hero .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  text-align: center;
+}
+.hero .container h1 {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 700;
+}
+.hero input {
+  width: 450px;
+  padding: 14px;
+  border-radius: 4px;
+  border: none;
+}
+.hero button {
+  padding: 14px 45px;
+}
+.hero button:hover {
+  background: #0069d9;
+  transition: 0.4s;
+}
+.icons {
+  padding: 120px 0;
+  background: #f8f9fa;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.icons .container {
+  display: flex;
+  justify-content: space-between;
+}
+.icon-box {
+  max-width: 400px;
+}
+.icon-box i {
+  color: #007bff;
+  font-size: 4.5rem;
+}
+.icon-box:hover i {
+  transform: scale(1.2);
+}
+.icon-box h3 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.icon-box p {
+  font-size: 1.25rem;
+  font-weight: 300;
+  margin: 0;
+}
+
+.images .card {
+  width: 951px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.images .container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1915px;
+}
+.images .card h2 {
+  margin-bottom: 0;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.images .card p {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+.text-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.people {
+  padding: 120px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: #f8f9fa;
+}
+.people img {
+  border-radius: 50%;
+  width: 192px;
+  box-shadow: 0 5px 5px 0 #adb5bd;
+}
+.people .user-card {
+  width: 300px;
+}
+.people .container {
+  display: flex;
+  justify-content: space-between;
+}
+.people h2 {
+  margin-bottom: 60px;
+}
+.people .user-card h5 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin: 8px 0;
+}
+.people .user-card p {
+  font-weight: 300;
+  margin: 5px 0;
+}
+
+.get-started {
+  padding: 120px 0;
+  background: url(img/bg-masthead.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.get-started h2 {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.get-started .container {
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.get-started input {
+  width: 550px;
+  padding: 14px;
+  border-radius: 4px;
+  border: none;
+}
+.get-started button {
+  padding: 13px 50px;
+  text-decoration: none;
+  font-weight: 600;
+  margin: 0px 10px;
+  background: #007bff;
+  border: 1px solid #007bff;
+  border-radius: 4px;
+  color: #fff;
+  transition: 0.4s;
+  cursor: pointer;
+}
+.get-started button:hover {
+  background: #0069d9;
+  transition: 0.4s;
+}
+footer {
+  padding: 80px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer a {
+  text-decoration: none;
+  color: #007bff;
+  margin: 0 5px;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+footer p {
+  margin: 5px;
+  color: #6c757d;
+}
+footer i {
+  color: #007bff;
+  font-size: 2em;
+  margin: 10px;
+  cursor: pointer;
+}
+footer i:hover {
+  color: #0069d9;
+}
+footer .container {
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+}
